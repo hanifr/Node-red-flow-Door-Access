@@ -1,0 +1,229 @@
+version: '2'
+
+services:
+
+  neo1:
+    image: nodered/node-red
+    restart: always
+    ports:
+      - "100:1880"  
+#    environment:
+#     - FLOWS=/data/flows.json
+#      VIRTUAL_HOST: telemetics.airmode.live
+#      VIRTUAL_PORT: 1880
+#      LETSENCRYPT_HOST: telemetics.airmode.live
+#      LETSENCRYPT_EMAIL: irhaniframli@gmail.com
+
+  neo2:
+    image: nodered/node-red
+    restart: always
+    ports:
+      - "200:1880"  
+#    environment:
+#     - FLOWS=/data/flows.json
+#      VIRTUAL_HOST: telemetics.airmode.live
+#      VIRTUAL_PORT: 1880
+#      LETSENCRYPT_HOST: telemetics.airmode.live
+#      LETSENCRYPT_EMAIL: irhaniframli@gmail.com
+
+  neo3:
+    image: nodered/node-red
+    restart: always
+    ports:
+      - "300:1880"  
+#    environment:
+#     - FLOWS=/data/flows.json
+#      VIRTUAL_HOST: telemetics.airmode.live
+#      VIRTUAL_PORT: 1880
+#      LETSENCRYPT_HOST: telemetics.airmode.live
+#      LETSENCRYPT_EMAIL: irhaniframli@gmail.com
+  neo4:
+    image: nodered/node-red
+    restart: always
+    ports:
+      - "400:1880"  
+#    environment:
+#     - FLOWS=/data/flows.json
+#      VIRTUAL_HOST: telemetics.airmode.live
+#      VIRTUAL_PORT: 1880
+#      LETSENCRYPT_HOST: telemetics.airmode.live
+#      LETSENCRYPT_EMAIL: irhaniframli@gmail.com
+  neo5:
+    image: nodered/node-red
+    restart: always
+    ports:
+      - "500:1880"  
+#    environment:
+#     - FLOWS=/data/flows.json
+#      VIRTUAL_HOST: telemetics.airmode.live
+#      VIRTUAL_PORT: 1880
+#      LETSENCRYPT_HOST: telemetics.airmode.live
+#      LETSENCRYPT_EMAIL: irhaniframli@gmail.com
+  neo6:
+    image: nodered/node-red
+    restart: always
+    ports:
+      - "600:1880"  
+#    environment:
+#     - FLOWS=/data/flows.json
+#      VIRTUAL_HOST: telemetics.airmode.live
+#      VIRTUAL_PORT: 1880
+#      LETSENCRYPT_HOST: telemetics.airmode.live
+#      LETSENCRYPT_EMAIL: irhaniframli@gmail.com
+  neo7:
+    image: nodered/node-red
+    restart: always
+    ports:
+      - "700:1880"  
+#    environment:
+#     - FLOWS=/data/flows.json
+#      VIRTUAL_HOST: telemetics.airmode.live
+#      VIRTUAL_PORT: 1880
+#      LETSENCRYPT_HOST: telemetics.airmode.live
+#      LETSENCRYPT_EMAIL: irhaniframli@gmail.com
+  neo8:
+    image: nodered/node-red
+    restart: always
+    ports:
+      - "800:1880"  
+#    environment:
+#     - FLOWS=/data/flows.json
+#      VIRTUAL_HOST: telemetics.airmode.live
+#      VIRTUAL_PORT: 1880
+#      LETSENCRYPT_HOST: telemetics.airmode.live
+#      LETSENCRYPT_EMAIL: irhaniframli@gmail.com
+  neo9:
+    image: nodered/node-red
+    restart: always
+    ports:
+      - "900:1880"  
+#    environment:
+#     - FLOWS=/data/flows.json
+#      VIRTUAL_HOST: telemetics.airmode.live
+#      VIRTUAL_PORT: 1880
+#      LETSENCRYPT_HOST: telemetics.airmode.live
+#      LETSENCRYPT_EMAIL: irhaniframli@gmail.com
+  neo10:
+    image: nodered/node-red
+    restart: always
+    ports:
+      - "1000:1880"  
+#    environment:
+#     - FLOWS=/data/flows.json
+#      VIRTUAL_HOST: telemetics.airmode.live
+#      VIRTUAL_PORT: 1880
+#      LETSENCRYPT_HOST: telemetics.airmode.live
+#      LETSENCRYPT_EMAIL: irhaniframli@gmail.com
+
+  neo11:
+    image: nodered/node-red
+    restart: always
+    ports:
+      - "1100:1880"  
+#    environment:
+#     - FLOWS=/data/flows.json
+#      VIRTUAL_HOST: telemetics.airmode.live
+#      VIRTUAL_PORT: 1880
+#      LETSENCRYPT_HOST: telemetics.airmode.live
+#      LETSENCRYPT_EMAIL: irhaniframli@gmail.com
+
+  neo12:
+    image: nodered/node-red
+    restart: always
+    ports:
+      - "1200:1880"  
+#    environment:
+#     - FLOWS=/data/flows.json
+#      VIRTUAL_HOST: telemetics.airmode.live
+#      VIRTUAL_PORT: 1880
+#      LETSENCRYPT_HOST: telemetics.airmode.live
+#      LETSENCRYPT_EMAIL: irhaniframli@gmail.com
+
+  neo13:
+    image: nodered/node-red
+    restart: always
+    ports:
+      - "1300:1880"  
+#    environment:
+#     - FLOWS=/data/flows.json
+#      VIRTUAL_HOST: telemetics.airmode.live
+#      VIRTUAL_PORT: 1880
+#      LETSENCRYPT_HOST: telemetics.airmode.live
+#      LETSENCRYPT_EMAIL: irhaniframli@gmail.com
+  neo14:
+    image: nodered/node-red
+    restart: always
+    ports:
+      - "1400:1880"  
+#    environment:
+#     - FLOWS=/data/flows.json
+#      VIRTUAL_HOST: telemetics.airmode.live
+#      VIRTUAL_PORT: 1880
+#      LETSENCRYPT_HOST: telemetics.airmode.live
+#      LETSENCRYPT_EMAIL: irhaniframli@gmail.com
+  neo15:
+    image: nodered/node-red
+    restart: always
+    ports:
+      - "1500:1880"  
+#    environment:
+#     - FLOWS=/data/flows.json
+#      VIRTUAL_HOST: telemetics.airmode.live
+#      VIRTUAL_PORT: 1880
+#      LETSENCRYPT_HOST: telemetics.airmode.live
+#      LETSENCRYPT_EMAIL: irhaniframli@gmail.com
+  neo16:
+    image: nodered/node-red
+    restart: always
+    ports:
+      - "1600:1880"  
+#    environment:
+#     - FLOWS=/data/flows.json
+#      VIRTUAL_HOST: telemetics.airmode.live
+#      VIRTUAL_PORT: 1880
+#      LETSENCRYPT_HOST: telemetics.airmode.live
+#      LETSENCRYPT_EMAIL: irhaniframli@gmail.com
+  neo17:
+    image: nodered/node-red
+    restart: always
+    ports:
+      - "1700:1880"  
+#    environment:
+#     - FLOWS=/data/flows.json
+#      VIRTUAL_HOST: telemetics.airmode.live
+#      VIRTUAL_PORT: 1880
+#      LETSENCRYPT_HOST: telemetics.airmode.live
+#      LETSENCRYPT_EMAIL: irhaniframli@gmail.com
+  neo18:
+    image: nodered/node-red
+    restart: always
+    ports:
+      - "1800:1880"  
+#    environment:
+#     - FLOWS=/data/flows.json
+#      VIRTUAL_HOST: telemetics.airmode.live
+#      VIRTUAL_PORT: 1880
+#      LETSENCRYPT_HOST: telemetics.airmode.live
+#      LETSENCRYPT_EMAIL: irhaniframli@gmail.com
+  neo19:
+    image: nodered/node-red
+    restart: always
+    ports:
+      - "1900:1880"  
+#    environment:
+#     - FLOWS=/data/flows.json
+#      VIRTUAL_HOST: telemetics.airmode.live
+#      VIRTUAL_PORT: 1880
+#      LETSENCRYPT_HOST: telemetics.airmode.live
+#      LETSENCRYPT_EMAIL: irhaniframli@gmail.com
+  neo20:
+    image: nodered/node-red
+    restart: always
+    ports:
+      - "2100:1880"  
+#    environment:
+#     - FLOWS=/data/flows.json
+#      VIRTUAL_HOST: telemetics.airmode.live
+#      VIRTUAL_PORT: 1880
+#      LETSENCRYPT_HOST: telemetics.airmode.live
+#      LETSENCRYPT_EMAIL: irhaniframli@gmail.com
